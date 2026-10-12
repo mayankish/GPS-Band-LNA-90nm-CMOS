@@ -1,5 +1,7 @@
 # 1.575 GHz GPS L1 LNA in 90 nm CMOS (Cadence Virtuoso, gpdk090)
 
+![LNA schematic](LNA_DESIGN_SCHEMATICS.png)
+
 An inductively degenerated cascode LNA for the GPS L1 band (1.57542 GHz), designed and simulated in Cadence Virtuoso with the generic `gpdk090` PDK. I started from hand calculations, simulated them in Spectre, and then retuned the design against what the simulator showed. This README records the final values, the iterations that got me there, and the problems I hit on the way.
 
 **Author:** Mayank Singh ([@mayankish](https://github.com/mayankish))
