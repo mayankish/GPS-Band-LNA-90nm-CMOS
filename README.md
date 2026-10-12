@@ -32,37 +32,26 @@ The passband is much wider than GPS needs (a few MHz). That is expected with on-
 All plots come from one `sp` sweep (1 to 2.2 GHz).
 
 ### S11
-![S11](images/S11.jpg)
+![S11](S11.bmp)
 
 ### S22
-![S22](images/S22.jpg)
+![S22](S22.bmp)
 
 ### S12
-![S12](images/S12.jpg)
+![S12](S12.bmp)
 
-### S21
-<!-- add: images/S21.png (plot dB20 of S21 from the same sp run) -->
-![S21](images/S21.png)
-
-### Stability (Kf and mu)
-<!-- add: images/Kf_mu.png once the Spectre Kf / mu plot is made -->
-![Kf and mu](images/Kf_mu.png)
-
-### Noise figure
-<!-- add: images/NF.png once the NF plot is made -->
-![NF](images/NF.png)
 
 ---
 
 ## Circuit
 
 ### Schematic
-![LNA schematic](images/LNA_DESIGN_SCHEMATICS.png)
+![LNA schematic](LNA_DESIGN_SCHEMATICS.png)
 
 ### Testbench
 `GPS_LNA_tb` has the LNA symbol, a 1.2 V `vdc` on VDD, and two 50 Ω `port` sources (port 1 on RFIN, port 2 on RFout).
 
-![Testbench with symbol](images/LNA_SYMBOL_SCHEMATICS.png)
+![Testbench with symbol](LNA_SYMBOL_SCHEMATICS.png)
 
 ### How the circuit works
 
@@ -148,8 +137,8 @@ From `dcOp` at 27 °C. All three devices are in saturation (`region = 2`).
 NM1 carries about 10 % more current than my target of 8.3 mA. The mirror ratio works out to about 20.5 instead of 20 because NM1's Vds (556 mV) is higher than M3's (528 mV), so channel-length modulation adds a bit of current. I left it because it did not hurt the RF results.
 
 <!-- add: images/CIW_dcOp_NM1_M2.png and images/CIW_dcOp_M3.png (Results > Print > DC Operating Points) -->
-![DC operating point, NM1 and M2](images/CIW_dcOp_NM1_M2.png)
-![DC operating point, M3](images/CIW_dcOp_M3.png)
+![DC operating point, NM1 and M2](photo_2026-10-12_07-19-55.jpg)
+![DC operating point, M3](photo_2026-10-12_07-02-26.jpg)
 
 ---
 
